@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELTA</title>
+    <!--Material CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp"
+    rel="stylesheet">
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+       <aside>
+           <div class="top">
+               <div class="logo">
+                   <img src="./images/logo.png">
+                   <h2>DEL <span class="danger">TA</span> </h2>
+               </div>
+               <div class="close" id="close-btn">
+                <span class="material-symbols-sharp">close</span>
+               </div>
+           </div>
+           <div class="sidebar">
+               <a href="#">
+                <span class="material-symbols-sharp">dashboard_customize</span>
+                <h3>Menú</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#" class="active">
+                <span class="material-symbols-sharp">person</span>
+                <h3>Estudiantes</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">person_4</span>
+                <h3>Profesores</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">school</span>
+                <h3>Escuelas</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">notifications</span>
+                <h3>Notificaciones</h3> <!--NOMBRE DE LA ETIQUETA-->
+                <span class="message-count">26</span>
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">paid</span>
+                <h3>Pagos</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">receipt_long</span>
+                <h3>Reportes</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">settings</span>
+                <h3>Configuración</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">person_add</span>
+                <h3>Nuevo estudiante</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+               <a href="#">
+                <span class="material-symbols-sharp">logout</span>
+                <h3>Salir</h3> <!--NOMBRE DE LA ETIQUETA-->
+               </a>
+           </div>
+       </aside>
+       <!--------------------------------------------END OF ASIDE-->
+       <main>
+          <h1>Menu principal</h1> 
+          <div class="date">
+              <input type="date">
+          </div>
+          <div class="insights">
+             <div class="Estudiantes">
+                <span class="material-symbols-sharp">emoji_people</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Total de alumnos</h3>
+                        <h1>8,192</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>90%</p>
+                        </div>
+                    </div>
+                </div>
+               <!---- <small class="text-muted">Last 24 Hours</small> --->
+              </div>
+              <!---------------------------------------END OF SALES-->
+              <div class="Escuelas">
+                <span class="material-symbols-sharp">school</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Escuelas</h3>
+                        <h1>3</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>60%</p>
+                        </div>
+                    </div>
+                </div>
+               <!---- <small class="text-muted">Last 24 Hours</small> --->
+              </div>
+              <!---------------------------------------END OF EXPENSES-->
+              <div class="Ingresos">
+                <span class="material-symbols-sharp">attach_money</span>
+                <div class="middle">
+                    <div class="left">
+                        <h3>Ingresos</h3>
+                        <h1>$50,800</h1>
+                    </div>
+                    <div class="progress">
+                        <svg>
+                            <circle cx='38' cy='38' r='36'></circle>
+                        </svg>
+                        <div class="number">
+                            <p>50%</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<small class="text-muted">Last 24 Hours</small>-->
+              </div>
+              <!---------------------------------------END OF INCOME-->
+              <div>
+                  <!-----------------------------------END OF INSIGHTS-->
+                  
+                  <div class="recent-orders">
+                      <h2>Pagos Recientes</h2>
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th>Nombre</th>
+                                  <th>Escuela</th>
+                                  <th>Cantidad</th>
+                                  <th>Estado</th>
+                                  <th></th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>David Del Toro</td>
+                                  <td>Tecnologico M</td>
+                                  <td>$10,000</td>
+                                  <td class="warning">Pendiente</td>
+                                  <td class="primary">Detalles</td>
+                              </tr>
+                              <tr>
+                                <td>Nathan Trejo</td>
+                                <td>IBERO</td>
+                                <td>8,000</td>
+                                <td class="warning">Pendiente</td>
+                                <td class="primary">Detalles</td>
+                            </tr>
+                            <tr>
+                                <td>Danilo Carrera</td>
+                                <td>Salle</td>
+                                <td>5,000</td>
+                                <td class="warning">Pendiente</td>
+                                <td class="primary">Detalles</td>
+                            </tr>
+                            <tr>
+                                <td>Ramses Vazquez</td>
+                                <td>Liceo</td>
+                                <td>3,000</td>
+                                <td class="warning">Pendiente</td>
+                                <td class="primary">Detalles</td>
+                            </tr>
+                            <tr>
+                                <td>Juan Ramos</td>
+                                <td>ICEL</td>
+                                <td>4,000</td>
+                                <td class="warning">Pendiente</td>
+                                <td class="primary">Detalles</td>
+                            </tr>
+                          </tbody>
+                      </table>
+                      <a href="#">Mostrar todo</a>
+                  </div>
+              </div>
+          </div>
+       </main>
+       <!----------------------------------------END OF MAIN--> 
+       <div class="right">
+           <div class="classtop">
+               <button id="menu-bt">
+                <span class="material-symbols-sharp">menu</span>
+            </button>
+            <div class="theme-toggler">
+                <span class="material-symbols-sharp active">light_mode</span>
+                <span class="material-symbols-sharp">dark_mode</span>
+            </div> 
+            <div class="profile">
+                <div class="info">
+                    <p>Bienvenido <b>Ramses</b></p>
+                    <small class="text-muted">Administrador</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg">
+                </div>
+            </div>
+           </div>
+            <!--------------END OF TOP-->
+            <div class="recent-updates">
+                <h2>Alumnos Recientes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Nathan Trejo</b> IBERO </p>
+                            <small class="text-muted"> 1 pago </small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>David</b> Tecnologico M </p>
+                            <small class="text-muted"> 1 pago </small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-4.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Danilo</b> Salle </p>
+                            <small class="text-muted"> 1 pago </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+       </div>
+   </div> 
+   
+    
+</body>
+</html>
